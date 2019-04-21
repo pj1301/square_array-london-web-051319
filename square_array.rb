@@ -10,8 +10,7 @@ def square_array(array)
 
 array.each do |numbers|
   i = 0
-  # i += 1
-  array[i] *= array[i]
   i += 1
+  array[i] *= array[i]
 end
 end
