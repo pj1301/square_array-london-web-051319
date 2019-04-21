@@ -13,3 +13,4 @@ array.each do |numbers|
   i += 1
   array[i] *= array[i]
 end
+end
