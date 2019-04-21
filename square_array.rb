@@ -8,7 +8,7 @@ def square_array(array)
 #   return array
 # end
   i = 0
-array.each do |numbers|
+  array.each do |numbers|
   array[i] *= array[i]
   i += 1 #has to come after the operation because otherwise we'll miss the first array element
 end
